@@ -13,7 +13,9 @@
 
 #If the physical drive changes, all you need to do is update DEVICEUUID variable.
 #Specify the UUID of the external unit (get with `sudo vol_id -u /dev/sdXX`) and mountpoint.
-export DEVICEUUID="9c15b64f-d797-4ea2-a47b-86d69bd71d62"
+
+#export DEVICEUUID="9c15b64f-d797-4ea2-a47b-86d69bd71d62"
+export DEVICEUUID="5bb6b553-83f6-495e-a7e5-18920f8b08df"
 export MOUNTPOINT=/media/update-drive
 
 #Set file for errors and completion status
