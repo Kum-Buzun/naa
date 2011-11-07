@@ -19,7 +19,7 @@ else
 		echo "**********************************************************************" >> $TMP_FILE
 		echo "" >> $TMP_FILE
 		echo "Failed to mount '$UPDATE_DRIVE'" >> $TMP_FILE
-		mailx -s "$0 backup failed - $(date)" alan.langley@naa.gov.au christopher.smart@naa.gov.au < $TMP_FILE
+		mailx -s "$0 backup failed - $(date)" alan.langley@naa.gov.au michael.carden@naa.gov.au < $TMP_FILE
 		rm $TMP_FILE		
 
 		exit 1
